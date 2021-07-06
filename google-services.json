@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "816290385939",
+    "project_id": "daily-assistant-aab08",
+    "storage_bucket": "daily-assistant-aab08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816290385939:android:2b0b1be02e3185798fafe6",
+        "android_client_info": {
+          "package_name": "com.suryakiran.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816290385939-5ehc5j70dc3ifaon7epfc4sgqpav9jtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suryakiran.firstapp",
+            "certificate_hash": "5c77c4833b01c7a2bc40a04010a49cc913922bd2"
+          }
+        },
+        {
+          "client_id": "816290385939-b5m589uetllhspd0hk7pruk14koeae28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBridrg_3zXWwWx3S5a8ESHt_smdeX5LUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816290385939-b5m589uetllhspd0hk7pruk14koeae28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
