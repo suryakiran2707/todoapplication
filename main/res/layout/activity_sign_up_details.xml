@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/signinbackground2"
+    tools:context=".sign_up_details">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Please enter details here"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:id="@+id/garbage"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/garbage"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter name here"
+        android:lines="1"
+        android:id="@+id/name"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/name"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+        android:hint="Enter gmail here"
+        android:id="@+id/Email"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Email"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:lines="1"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Phone Number here"
+        android:id="@+id/Phoneno"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Phoneno"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Profession here"
+        android:lines="1"
+        android:id="@+id/Profession"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Profession"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+        android:hint="Enter Password here"
+        android:id="@+id/Password"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify using mobile number"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/Password"
+        android:id="@+id/Signup"
+        android:layout_marginTop="120dp"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignTop="@+id/Signup"
+         android:layout_marginTop="50dp"
+         android:id="@+id/vermail"
+         android:text="VERIFY USING MAIL"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign in"
+        android:layout_alignTop="@+id/vermail"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:id="@+id/text2"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"/>
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:id="@+id/probar"
+            android:visibility="gone"
+            android:layout_below="@+id/Password"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</ScrollView>

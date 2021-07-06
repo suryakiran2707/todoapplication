@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinbackground2"
+    tools:context=".otp_verification">
+
+    <TextView
+        android:id="@+id/otptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="131dp"
+        android:fontFamily="@font/tinos_bold"
+        android:text="ENTER OTP"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:hint="Enter otp here              "
+        android:layout_alignTop="@id/otptxt"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/otpedit"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:id="@+id/otpbtn"
+        android:layout_alignTop="@+id/otpedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/otpbtn"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/bar"
+        android:layout_marginTop="70dp"/>
+
+
+</RelativeLayout>
